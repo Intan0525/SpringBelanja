@@ -13,7 +13,13 @@
         <br/>
         <br/>
         <br/>
-        <div class="main_slider" >
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="container" >
 
                 <b>${errMsg}</b>
                 <div class="card">
