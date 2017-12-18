@@ -35,12 +35,12 @@ public class LoginController {
         User user = us.findByUsername(loginBean.getUsername());
 //        System.out.println("username "+loginBean.getUsername()+ " = "+loginBean.getPassword());
         if(user.getUsername()==null) {
-            model.addAttribute("errMsg", "Username salah");
+            model.addAttribute("errMsg", "Username Wrong");
             return "login";
         }
         String encryptedPassword = PasswordDigest.createEncryptedPassword(loginBean.getPassword());
         if(!encryptedPassword.equals(user.getPassword())) {
-            model.addAttribute("errMsg", "Password salah");
+            model.addAttribute("errMsg", "Password Wrong");
             return "login";
         }
         

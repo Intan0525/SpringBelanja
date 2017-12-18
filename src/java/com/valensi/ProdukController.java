@@ -26,7 +26,7 @@ public class ProdukController {
     }
     @RequestMapping(value="/{produkId}")
     public String showOneProduk(@PathVariable Integer produkId, Model model){
-        System.out.println("IDnya bor "+ produkId);
+        System.out.println("IDnya : "+ produkId);
         Produk produk = ps.findById(Long.valueOf(produkId));
         model.addAttribute("produk", produk);
         return "produkdetail";

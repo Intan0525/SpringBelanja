@@ -15,13 +15,13 @@ public class Welcome {
     
     @RequestMapping()
     public String welcome(Model model) {
-        model.addAttribute("msg", "Selamat datang di situs ini");
+        model.addAttribute("msg", "Welcome in this website");
         return "welcome";
     }
     
     @RequestMapping("/drink")
     public String drink(Model model)  {
-        model.addAttribute("msg", "Mari, silakan minum");
+        model.addAttribute("msg", "take a drink");
         return "welcome";
     }
     
