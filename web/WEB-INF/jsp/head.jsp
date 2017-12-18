@@ -78,7 +78,7 @@
                                             </a>
                                             <ul class="account_selection">
                                                 <li><a href="${pageContext.request.contextPath}/login"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-                                                <li><a href="${pageContext.request.contextPath}/register""><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+                                                <li><a href="${pageContext.request.contextPath}/register"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -95,16 +95,16 @@
                         <div class="row">
                             <div class="col-lg-12 text-right">
                                 <div class="logo_container">
-                                    <a href="#">Intan's<span>shop</span></a>
+                                    <a href="${pageContext.request.contextPath}/">Intan's<span>shop</span></a>
                                 </div>
                                 <nav class="navbar">
                                     <ul class="navbar_menu">
-                                        <li><a href="#">home</a></li>
-                                        <li><a href="#">shop</a></li>
-                                        <li><a href="#">promotion</a></li>
-                                        <li><a href="#">pages</a></li>
+                                        <li><a href="${pageContext.request.contextPath}/">home</a></li>
+                                        <li><a href="${pageContext.request.contextPath}/produks">shop</a></li>
+                                        <li><a href="${pageContext.request.contextPath}/produks">promotion</a></li>
+                                        <li><a href="${pageContext.request.contextPath}/produks">pages</a></li>
                                         <li><a href="#">blog</a></li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="#">contact</a></li>
                                     </ul>
                                     <ul class="navbar_user">
                                         <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
@@ -164,13 +164,13 @@
                             <ul class="menu_selection">
                                 <li>
                                     <a href="${pageContext.request.contextPath}/login"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-                                <li><a href="${pageContext.request.contextPath}"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+                                <li><a href="${pageContext.request.contextPath}/register"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
                             </ul>
                         </li>
-                        <li class="menu_item"><a href="#">home</a></li>
-                        <li class="menu_item"><a href="#">shop</a></li>
-                        <li class="menu_item"><a href="#">promotion</a></li>
-                        <li class="menu_item"><a href="#">pages</a></li>
+                        <li class="menu_item"><a href="${pageContext.request.contextPath}/">home</a></li>
+                        <li class="menu_item"><a href="${pageContext.request.contextPath}/produks">shop</a></li>
+                        <li class="menu_item"><a href="${pageContext.request.contextPath}/produks">promotion</a></li>
+                        <li class="menu_item"><a href="${pageContext.request.contextPath}/produks">pages</a></li>
                         <li class="menu_item"><a href="#">blog</a></li>
                         <li class="menu_item"><a href="#">contact</a></li>
                     </ul>
