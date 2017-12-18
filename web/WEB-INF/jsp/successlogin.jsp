@@ -12,6 +12,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link href="<c:url value="/resources/css/css/bootstrap.css" />" rel="stylesheet">
+        
+        
     </head>
     <body>
         <jsp:include page="head.jsp"/> 

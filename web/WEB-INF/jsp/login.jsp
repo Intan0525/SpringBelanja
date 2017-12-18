@@ -5,30 +5,34 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Intan's Shop</title>
         <link href="<c:url value="/resources/css/css/bootstrap.css"/>" rel="stylesheet">
     </head>
     <body>
-        <jsp:include page="head.jsp"/> 
-        <div class="container">
+        <jsp:include page="head.jsp"/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="main_slider" >
 
-            <b>${errMsg}</b>
-            <div class="card">
-                <div class="card-header">
-                    Login Form
-                </div>
-                <div class="card-body">
-                    <form:form action="${pageContext.request.contextPath}/login/check" modelAttribute="loginBean" method="POST" >
-                        <table>
-                            <tr><td><form:label path="username">Username</form:label></td>
-                                <td><form:input path="username"/></td></tr>
-                            <tr><td><form:label path="password">Password</form:label></td>
-                                <td><form:password path="password" /></td></tr>
-                            <tr><td></td><td><form:button name="submitButton" value="Submit">Submit</form:button></td></tr>            
-                            </table>            
-                    </form:form>
+                <b>${errMsg}</b>
+                <div class="card">
+                    <div class="card-header">
+                        Login Form
+                    </div>
+                    <div class="card-body">
+                        <form:form action="${pageContext.request.contextPath}/login/check" modelAttribute="loginBean" method="POST" >
+                            <table>
+                                <tr><td><form:label path="username">Username</form:label></td>
+                                    <td><form:input path="username"/></td></tr>
+                                <tr><td><form:label path="password">Password</form:label></td>
+                                    <td><form:password path="password" /></td></tr>
+                                <tr><td></td><td><form:button name="submitButton" value="Submit">Submit</form:button></td></tr>            
+                                </table>            
+                        </form:form>
+                    </div>
                 </div>
             </div>
-        </div>
+        
     </body>
 </html>
